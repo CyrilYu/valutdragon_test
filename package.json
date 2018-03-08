@@ -1,0 +1,28 @@
+{
+  "name": "VaultDragon",
+  "version": "1.0.0",
+  "description": "pretesting",
+  "main": "app.js",
+  "author": "Cyril Yu",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn install && NODE_ENV=dev ./node_modules/nodemon/bin/nodemon.js ./bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "bluebird": "^3.5.1",
+    "chalk": "^2.3.2",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.21.0",
+    "mongoose": "^5.0.9",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.1"
+  }
+}
